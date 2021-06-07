@@ -11,7 +11,7 @@ excluded: # paths to ignore during linting. Takes precedence over `included`.
     - MetroTestsHostApp/Resources/R.generated.swift
     - CompanionUITests
     - AppAuthPOC
-    - R.generated.swift
+    - NewsApp/Resourses/R.generated.swift
 analyzer_rules: # Rules run by `swiftlint analyze` (experimental)
     - unused_declaration
     - unused_import

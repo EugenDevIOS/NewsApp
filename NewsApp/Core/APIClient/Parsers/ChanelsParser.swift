@@ -17,7 +17,7 @@ internal class ChanelsParser: HTTPClientParser {
 
     func parseForError(response: HTTPURLResponse?, responseData: Data?) -> Error? {
         guard let response = responseData, !response.isEmpty else {
-            return ApiClientError.listChanelIsEmpty
+            return APIClientError.listChanelIsEmpty
         }
         return nil
     }
@@ -25,7 +25,7 @@ internal class ChanelsParser: HTTPClientParser {
     func parseForResult(_ serializedResponse: JSON, response: HTTPURLResponse?) throws -> [Chanel] {
 
         guard let response = serializedResponse["sources"].array else {
-            throw ApiClientError.invalidData
+            throw APIClientError.invalidData
         }
         var chanels: [Chanel] = []
         response.forEach({

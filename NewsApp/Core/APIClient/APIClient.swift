@@ -1,6 +1,6 @@
 import Shakuro_iOS_Toolbox
 
-internal enum ApiClientError: Swift.Error {
+internal enum APIClientError: Swift.Error {
     case invalidData
     case listChanelIsEmpty
 }

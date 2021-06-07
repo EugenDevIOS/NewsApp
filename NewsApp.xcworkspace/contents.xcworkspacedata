@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Volumes/SSD - Data/Develop/NewsApp/NewsApp/Core/Database/Entities/CDChanel+CoreDataProperties.swift">
-   </FileRef>
-   <FileRef
       location = "group:NewsApp.xcodeproj">
    </FileRef>
    <FileRef
