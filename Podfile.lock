@@ -1,0 +1,190 @@
+PODS:
+  - Alamofire (5.1.0)
+  - CommonCryptoModule (1.0.2)
+  - Firebase/Auth (8.1.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 8.1.0)
+  - Firebase/CoreOnly (8.1.0):
+    - FirebaseCore (= 8.1.0)
+  - FirebaseAuth (8.1.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - FirebaseCore (8.1.0):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+  - FirebaseCoreDiagnostics (8.1.0):
+    - GoogleDataTransport (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+    - nanopb (~> 2.30908.0)
+  - GoogleDataTransport (9.0.1):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.4.1):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.4.1):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (7.4.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.4.1):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.4.1)"
+  - GoogleUtilities/Reachability (7.4.1):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.5.0)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - pop (1.0.12)
+  - PromisesObjC (1.2.12)
+  - R.swift (5.4.0):
+    - R.swift.Library (~> 5.3.0)
+  - R.swift.Library (5.3.0)
+  - Shakuro.CommonTypes (1.0.3):
+    - CommonCryptoModule (= 1.0.2)
+  - Shakuro.iOS_Toolbox (0.23.0):
+    - Shakuro.iOS_Toolbox/AsyncResult (= 0.23.0)
+    - Shakuro.iOS_Toolbox/ContainerViewController (= 0.23.0)
+    - Shakuro.iOS_Toolbox/DecelerationHelper (= 0.23.0)
+    - Shakuro.iOS_Toolbox/Device (= 0.23.0)
+    - Shakuro.iOS_Toolbox/DraggableDetailsOverlay (= 0.23.0)
+    - Shakuro.iOS_Toolbox/EMail (= 0.23.0)
+    - Shakuro.iOS_Toolbox/EventHandler (= 0.23.0)
+    - Shakuro.iOS_Toolbox/Exceptions (= 0.23.0)
+    - Shakuro.iOS_Toolbox/Extensions (= 0.23.0)
+    - Shakuro.iOS_Toolbox/GenericError (= 0.23.0)
+    - Shakuro.iOS_Toolbox/HorizontalInfinityScrollView (= 0.23.0)
+    - Shakuro.iOS_Toolbox/HTTPClient (= 0.23.0)
+    - Shakuro.iOS_Toolbox/ImageProcessing (= 0.23.0)
+    - Shakuro.iOS_Toolbox/Keyboard (= 0.23.0)
+    - Shakuro.iOS_Toolbox/Keychain (= 0.23.0)
+    - Shakuro.iOS_Toolbox/Labels (= 0.23.0)
+    - Shakuro.iOS_Toolbox/LoopedScrollView (= 0.23.0)
+    - Shakuro.iOS_Toolbox/PlaceholderTextView (= 0.23.0)
+    - Shakuro.iOS_Toolbox/PoliteCoreData (= 0.23.0)
+    - Shakuro.iOS_Toolbox/PullToRefresh (= 0.23.0)
+    - Shakuro.iOS_Toolbox/Router (= 0.23.0)
+    - Shakuro.iOS_Toolbox/Settings (= 0.23.0)
+    - Shakuro.iOS_Toolbox/TaskManager (= 0.23.0)
+    - Shakuro.iOS_Toolbox/Utils (= 0.23.0)
+    - Shakuro.iOS_Toolbox/Vibrations (= 0.23.0)
+    - Shakuro.iOS_Toolbox/VideoCamera (= 0.23.0)
+  - Shakuro.iOS_Toolbox/AsyncResult (0.23.0)
+  - Shakuro.iOS_Toolbox/ContainerViewController (0.23.0)
+  - Shakuro.iOS_Toolbox/DecelerationHelper (0.23.0)
+  - Shakuro.iOS_Toolbox/Device (0.23.0)
+  - Shakuro.iOS_Toolbox/DraggableDetailsOverlay (0.23.0):
+    - Shakuro.iOS_Toolbox/DecelerationHelper
+    - Shakuro.iOS_Toolbox/Extensions
+  - Shakuro.iOS_Toolbox/EMail (0.23.0)
+  - Shakuro.iOS_Toolbox/EventHandler (0.23.0):
+    - Shakuro.iOS_Toolbox/Extensions
+  - Shakuro.iOS_Toolbox/Exceptions (0.23.0)
+  - Shakuro.iOS_Toolbox/Extensions (0.23.0):
+    - CommonCryptoModule (= 1.0.2)
+  - Shakuro.iOS_Toolbox/GenericError (0.23.0)
+  - Shakuro.iOS_Toolbox/HorizontalInfinityScrollView (0.23.0):
+    - pop (= 1.0.12)
+    - Shakuro.iOS_Toolbox/DecelerationHelper
+    - Shakuro.iOS_Toolbox/Extensions
+  - Shakuro.iOS_Toolbox/HTTPClient (0.23.0):
+    - Alamofire (= 5.1.0)
+    - Shakuro.iOS_Toolbox/AsyncResult
+    - Shakuro.iOS_Toolbox/GenericError
+  - Shakuro.iOS_Toolbox/ImageProcessing (0.23.0)
+  - Shakuro.iOS_Toolbox/Keyboard (0.23.0)
+  - Shakuro.iOS_Toolbox/Keychain (0.23.0)
+  - Shakuro.iOS_Toolbox/Labels (0.23.0)
+  - Shakuro.iOS_Toolbox/LoopedScrollView (0.23.0)
+  - Shakuro.iOS_Toolbox/PlaceholderTextView (0.23.0)
+  - Shakuro.iOS_Toolbox/PoliteCoreData (0.23.0)
+  - Shakuro.iOS_Toolbox/PullToRefresh (0.23.0)
+  - Shakuro.iOS_Toolbox/Router (0.23.0):
+    - Shakuro.iOS_Toolbox/AsyncResult
+    - Shakuro.iOS_Toolbox/ContainerViewController
+    - Shakuro.iOS_Toolbox/Extensions
+  - Shakuro.iOS_Toolbox/Settings (0.23.0)
+  - Shakuro.iOS_Toolbox/TaskManager (0.23.0):
+    - Shakuro.iOS_Toolbox/AsyncResult
+    - Shakuro.iOS_Toolbox/Extensions
+  - Shakuro.iOS_Toolbox/Utils (0.23.0)
+  - Shakuro.iOS_Toolbox/Vibrations (0.23.0):
+    - Shakuro.iOS_Toolbox/Device
+  - Shakuro.iOS_Toolbox/VideoCamera (0.23.0):
+    - Shakuro.iOS_Toolbox/Device
+    - Shakuro.iOS_Toolbox/ImageProcessing
+  - Shakuro.TaskManager (1.0.2):
+    - CommonCryptoModule (= 1.0.2)
+    - Shakuro.CommonTypes (= 1.0.3)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Firebase/Auth
+  - R.swift
+  - Shakuro.iOS_Toolbox (from `https://gitlab.com/shakuro-public/ios_toolbox.git`, commit `25d05b4fad4c49b67f40258bae0c3c2cdb9e058b`)
+  - Shakuro.TaskManager
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CommonCryptoModule
+    - Firebase
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - GoogleDataTransport
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - nanopb
+    - pop
+    - PromisesObjC
+    - R.swift
+    - R.swift.Library
+    - Shakuro.CommonTypes
+    - Shakuro.TaskManager
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Shakuro.iOS_Toolbox:
+    :commit: 25d05b4fad4c49b67f40258bae0c3c2cdb9e058b
+    :git: https://gitlab.com/shakuro-public/ios_toolbox.git
+
+CHECKOUT OPTIONS:
+  Shakuro.iOS_Toolbox:
+    :commit: 25d05b4fad4c49b67f40258bae0c3c2cdb9e058b
+    :git: https://gitlab.com/shakuro-public/ios_toolbox.git
+
+SPEC CHECKSUMS:
+  Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  CommonCryptoModule: 63a68b57abed79655b3a01011419bf037a05b0a0
+  Firebase: b5956acddaaa53a6c292bec00649fadd18367344
+  FirebaseAuth: e069ff5736fe9d5dcf61f36244bb1b1ce1897d17
+  FirebaseCore: 389c4ce9a7cce4a7e25eb22326b4bee0050557b2
+  FirebaseCoreDiagnostics: 3e249cee3de5c5f9cfd6cc2a19997231286fec11
+  GoogleDataTransport: 04c3e9a480bbcaa2ec3f5d27f1cdeb6a92f20c8d
+  GoogleUtilities: f8a43108b38a68eebe8b3540e1f4f2d28843ce20
+  GTMSessionFetcher: b3503b20a988c4e20cc189aa798fd18220133f52
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  R.swift: c533450b0f7dc494e0993f5f1a1db925d84c3006
+  R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
+  Shakuro.CommonTypes: 705a0ee043a554fccaf1ff24bea9f9af4ea3f06e
+  Shakuro.iOS_Toolbox: f31d66a4c071b5bc1866403a117bf17b93f2b522
+  Shakuro.TaskManager: 6969655193eb854a0180341cde8436311e642e9b
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: cc589967ad97f5d5645b61e3cfb55038a2f0de5a
+
+COCOAPODS: 1.10.1
